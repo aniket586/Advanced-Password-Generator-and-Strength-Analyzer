@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('imagebg.jpeg'); /* Replace 'your-image-url.jpg' with the actual URL or path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(255,255,255);
+    color: radial-gradient(circle, rgba(255,255,255,0) 30%, rgba(100,166,158,0) 98%);
+  }
+  
+  #password-output {
+    margin-bottom: 10px;
+  }
+  .g {
+    background-color: white;
+    padding: 5px 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  .g:active {
+    background-color: blue;
+    
+    
+  }
+  
+  #strength-indicator {
+    width: 150px;
+    height: 10px;
+    margin-top: 10px;
+  }
+  
